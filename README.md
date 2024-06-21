@@ -98,6 +98,24 @@ All you will need to do is to clone the library, install the test, create a virt
 
 See also the list of [contributors](http://ds4n6.io/community.html) who participated in this project.
 
+
+## NOTES:
+sudo apt-get install -y build-essential libssl-dev libffi-dev python3-dev
+sudo apt-get install -y libatlas-base-dev gfortran
+sudo apt-get install -y libjpeg-dev zlib1g-dev libpng-dev libfreetype6-dev
+sudo apt-get install -y libhdf5-dev
+sudo apt-get install -y libffi-dev
+
+## TESTING
+
+pip install --upgrade cython
+pip install numpy scipy
+pip install --upgrade pip
+pip uninstall scikit-learn
+git clone https://github.com/scikit-learn/scikit-learn.git
+cd scikit-learn
+pip install .
+
 ## License
 
 This project is licensed under the GNU GPL v3.0 License - see the [LICENSE](LICENSE) file for details
