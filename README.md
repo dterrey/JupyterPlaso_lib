@@ -116,6 +116,8 @@ git clone https://github.com/scikit-learn/scikit-learn.git
 cd scikit-learn
 pip install .
 
+Replace pandas==1.2.3 to pandas==2.2.2
+
 ## License
 
 This project is licensed under the GNU GPL v3.0 License - see the [LICENSE](LICENSE) file for details
